@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Tempo de Vida</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora de Tempo de Vida</h1>
+        <label for="nome">Nome Completo:</label>
+        <input type="text" id="nome" placeholder="Digite seu nome" required>
+
+        <label for="dataNascimento">Data de Nascimento:</label>
+        <input type="date" id="dataNascimento" required>
+
+        <label for="dataFalecimento">Data de Falecimento (opcional):</label>
+        <input type="date" id="dataFalecimento">
+
+        <button id="calcular">Calcular</button>
+
+        <div id="resultado"></div>
+    </div>
+
+    <script src="js/atv.js"></script>
+</body>
+</html>
